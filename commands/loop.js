@@ -3,7 +3,7 @@ const { TrackUtils } = require("erela.js");
 
 module.exports = {
     name: "loop",
-    description: "Loop the current song",
+    description: "Çalan şarkıyı döngüye sokar",
     usage: "",
     permissions: {
       channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],

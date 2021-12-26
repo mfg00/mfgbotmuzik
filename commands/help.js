@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "help",
-  description: "Information about the bot",
+  description: "Bot komutları",
   usage: "[command]",
   permissions: {
     channel: ["VIEW_CHANNEL", "SEND_MESSAGES", "EMBED_LINKS"],
@@ -33,13 +33,13 @@ module.exports = {
             .setFooter(
               `To get info of each command type ${
                 GuildDB ? GuildDB.prefix : client.config.DefaultPrefix
-              }help [Command] | Have a nice day!`
+              }help [komut] | İyi eğlenceler!`
             ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.config.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | [Spotify](https://open.spotify.com/user/21l7qaxyis7o5kf27sm4do4ki?si=c39461e6adf64a3c) | By [Mfg](457613534587518987)`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
