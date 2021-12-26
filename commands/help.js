@@ -114,13 +114,13 @@ SlashCommand: {
             .setFooter(
               `To get info of each command type ${
                 GuildDB ? GuildDB.prefix : client.config.DefaultPrefix
-              }help [Command] | Have a nice day!`
+              }help [Command] | iyi eğlenceler!`
             ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.config.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | [Spotify](https://open.spotify.com/user/21l7qaxyis7o5kf27sm4do4ki?si=39283921a123422b) | By [MFG]()`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
