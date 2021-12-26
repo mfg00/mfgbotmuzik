@@ -31,12 +31,12 @@ module.exports = {
             )
             .setColor("RANDOM")
             .setFooter(
-              `To get info of each command type ${
+              `Her bir komut türü hakkında bilgi almak için ${
                 GuildDB ? GuildDB.prefix : client.config.DefaultPrefix
               }help [komut] | İyi eğlenceler!`
             ).setDescription(`${Commands.join("\n")}
   
-  Discord Music Bot Version: v${require("../package.json").version}
+  Discord Müzik Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.config.SupportServer
   }) | [Spotify](https://open.spotify.com/user/21l7qaxyis7o5kf27sm4do4ki?si=c39461e6adf64a3c) | By [Mfg](457613534587518987)`);
